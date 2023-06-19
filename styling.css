@@ -7,7 +7,7 @@
 /* sets background colour and font for all webpages */
 body {
     background-color: #95d3f0;
-	font-family:Trebuchet MS;
+	font-family:Trebuchet MS, Helvetica, Arial;
 }
 
 /* sets a max width for images to ensure they don't get too big */
@@ -91,6 +91,12 @@ img {
 .continent {
 	text-align:center;
 	padding:1%;
+}
+
+.continent img {
+	height:150px;
+	width:auto;
+	margin-bottom:10px;
 }
 
 .continent:hover{
@@ -204,6 +210,7 @@ img {
 
 .footer img {
 	width:100px;
+	height:auto;
 }
 
 .citations {
