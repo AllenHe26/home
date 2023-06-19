@@ -1,0 +1,217 @@
+/* sets the margin and padding for all elements to 0 */
+* {
+	margin:0;
+	padding:0;
+}
+
+/* sets background colour and font for all webpages */
+body {
+    background-color: #95d3f0;
+	font-family:Trebuchet MS;
+}
+
+/* sets a max width for images to ensure they don't get too big */
+img {
+	max-width: 80%;
+}
+
+/* formats the header at the top of the screen that always stays on screen */
+.header {
+	position: sticky;
+	margin-top:0;
+	width: 100%;
+	height: 10vh;
+	background-color: #95a3f0;
+	z-index: 100;
+}
+
+/* formats a link on the header */
+.header > a {
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 20%;
+	color:#10519c;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+.header > a:hover {
+	color:#083f80;
+}
+
+/* formats the other smaller links on the header */
+.navigation {
+	position: absolute;
+	width: 100%;
+}
+
+.navigation a {
+	position: relative;
+	left: 45%;
+	top: 30px;
+	color: white;
+	text-decoration: none;
+	margin-right: 20px;
+	font-size: 20px;
+}
+
+.navigation a:hover {
+	color: #4089de;
+}
+
+/* formats the headings of each page */
+.heading {
+	text-align: center;
+	background-color:#95b3f0;
+	margin:1% 1% 0% 1%;
+	padding:2%;
+	border-radius:20px;
+}
+
+.heading h1{
+	font-size:60px;
+}
+
+.heading p{
+	font-size:15px;
+}
+
+/* special colour for the title of the website */
+#title {
+	color:#10519c;
+}
+
+/* formats the interactable continents on the home page */
+.continents {
+	width:90%;
+	margin-left:5%;
+	margin-right:5%;
+}
+
+.continent {
+	text-align:center;
+	padding:1%;
+}
+
+.continent:hover{
+	background-color:#95b3f0;
+	border-radius:20px;
+}
+
+.continent h2{
+	font-size:25px;
+	padding-bottom:10px;
+}
+
+.continent p{
+	text-align:center;
+	font-size:7px;
+}
+
+/* formats text that is used for information */
+.information{
+	background-color:#95b3f0;
+	border-radius:20px;
+	text-align:center;
+	margin:1%;
+	padding:1%;
+}
+
+/* formats the iFrame of Google Maps and the text following it */
+.iframe{
+	text-align:center;
+	font-size:15px;
+	margin-bottom:20px;
+}
+
+/* formats the table that contains all of the countries */
+.table-of-countries{
+	width:100%;
+}
+
+/* formats the table cells that contains all of the countries */
+.table-cell {
+	width:50%;
+}
+
+/* formats the table describing each country */
+.country {
+	border-radius:20px;
+	background-color: #95b3f0;
+	margin: 2%;
+	padding: 1%;
+}
+
+.country td {
+	width: 50%;
+	height: 50%;
+}
+
+.country:hover {
+	background-color: #95b3e0;
+}
+
+/* formats the name of each country */
+.name {
+	text-align:center;
+	font-size: 30px;
+}
+
+/* formats the flag of each country */
+.flag {
+	text-align:center;
+	padding: 10px
+}
+
+.flag img{
+	max-height:200px;
+	width:auto;
+}
+
+.flag p{
+	margin-top:5px;
+	font-size:10px;
+}
+
+/* formats the data of each country */
+.data {
+	padding: 15px 30px 15px 30px;
+	font-size: 15px;
+}
+
+.data ul {
+	padding-left:15px;
+}
+
+/* formats the fact of each country */
+.fact {
+	font-size:15px;
+}
+
+/* formats the footer of each webpage */
+.footer {
+	width:100%;
+	color:white;
+	text-align:center;
+	background-color: #95a3f0;
+}
+
+.footer p {
+	padding-top:10px;
+	padding-bottom:10px;
+	font-size:20px;
+}
+
+.footer img {
+	width:100px;
+}
+
+.citations {
+	margin-left:10%;
+}
+
+
+/* makes text bold */
+.bold{
+	font-weight:bold;
+}
