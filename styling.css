@@ -1,22 +1,22 @@
 /* sets the margin and padding for all elements to 0 */
-* {
+*{
 	margin:0;
 	padding:0;
 }
 
 /* sets background colour and font for all webpages */
-body {
+body{
     background-color: #95d3f0;
 	font-family:Trebuchet MS, Helvetica, Arial;
 }
 
 /* sets a max width for images to ensure they don't get too big */
-img {
+img{
 	max-width: 80%;
 }
 
 /* formats the header at the top of the screen that always stays on screen */
-.header {
+.header{
 	position: sticky;
 	margin-top:0;
 	width: 100%;
@@ -26,7 +26,7 @@ img {
 }
 
 /* formats a link on the header */
-.header > a {
+.header>a{
 	position: absolute;
 	margin-top: 20px;
 	margin-left: 20%;
@@ -35,17 +35,17 @@ img {
 	font-size: 30px;
 }
 
-.header > a:hover {
+.header>a:hover{
 	color:#083f80;
 }
 
 /* formats the other smaller links on the header */
-.navigation {
+.navigation{
 	position: absolute;
 	width: 100%;
 }
 
-.navigation a {
+.navigation a{
 	position: relative;
 	left: 45%;
 	top: 30px;
@@ -55,12 +55,12 @@ img {
 	font-size: 20px;
 }
 
-.navigation a:hover {
+.navigation a:hover{
 	color: #4089de;
 }
 
 /* formats the headings of each page */
-.heading {
+.heading{
 	text-align: center;
 	background-color:#95b3f0;
 	margin:1% 1% 0% 1%;
@@ -77,25 +77,24 @@ img {
 }
 
 /* special colour for the title of the website */
-#title {
+#title{
 	color:#10519c;
 }
 
 /* formats the interactable continents on the home page */
-.continents {
+.continents{
 	width:90%;
 	margin-left:5%;
 	margin-right:5%;
 }
 
-.continent {
+.continent{
 	text-align:center;
 	padding:1%;
 }
 
-.continent img {
+.continent img{
 	height:150px;
-	width:auto;
 	margin-bottom:10px;
 }
 
@@ -136,42 +135,41 @@ img {
 }
 
 /* formats the table cells that contains all of the countries */
-.table-cell {
+.table-cell{
 	width:50%;
 }
 
 /* formats the table describing each country */
-.country {
+.country{
 	border-radius:20px;
 	background-color: #95b3f0;
 	margin: 2%;
 	padding: 1%;
 }
 
-.country td {
+.country td{
 	width: 50%;
 	height: 50%;
 }
 
-.country:hover {
+.country:hover{
 	background-color: #95b3e0;
 }
 
 /* formats the name of each country */
-.name {
+.name{
 	text-align:center;
 	font-size: 30px;
 }
 
 /* formats the flag of each country */
-.flag {
+.flag{
 	text-align:center;
 	padding: 10px
 }
 
 .flag img{
-	max-height:200px;
-	width:auto;
+	width:300px;
 }
 
 .flag p{
@@ -180,40 +178,39 @@ img {
 }
 
 /* formats the data of each country */
-.data {
+.data{
 	padding: 15px 30px 15px 30px;
 	font-size: 15px;
 }
 
-.data ul {
+.data ul{
 	padding-left:15px;
 }
 
 /* formats the fact of each country */
-.fact {
+.fact{
 	font-size:15px;
 }
 
 /* formats the footer of each webpage */
-.footer {
+.footer{
 	width:100%;
 	color:white;
 	text-align:center;
 	background-color: #95a3f0;
 }
 
-.footer p {
+.footer p{
 	padding-top:10px;
 	padding-bottom:10px;
 	font-size:20px;
 }
 
-.footer img {
+.footer img{
 	width:100px;
-	height:auto;
 }
 
-.citations {
+.citations{
 	margin-left:10%;
 }
 
